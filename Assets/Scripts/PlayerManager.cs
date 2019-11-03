@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour {
 
     RaycastHit hit;
-    List<UnitController> selectedUnits = new List<UnitController>();
+    public List<UnitController> selectedUnits = new List<UnitController>();
     bool isDragging = false;
     Vector3 mousePositon;
 
